@@ -1,0 +1,15 @@
+title: "[Announcement] "
+labels: ["announcement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Объявления предназначены для важных новостей от owners и maintainers.
+  - type: textarea
+    id: announcement
+    attributes:
+      label: Объявление
+      description: Что важно сообщить?
+      placeholder: "Коротко и по делу."
+    validations:
+      required: true

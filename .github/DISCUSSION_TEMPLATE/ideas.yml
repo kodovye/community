@@ -1,0 +1,31 @@
+title: "[Idea] "
+labels: ["idea"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Идеи лучше заходят, когда понятно, зачем они нужны и с чего начать.
+  - type: textarea
+    id: idea
+    attributes:
+      label: Идея
+      description: Что предлагаешь?
+      placeholder: "Коротко опиши идею."
+    validations:
+      required: true
+  - type: textarea
+    id: value
+    attributes:
+      label: Польза
+      description: Что станет лучше для Kodovye?
+      placeholder: "Почему это стоит сделать?"
+    validations:
+      required: true
+  - type: textarea
+    id: first-step
+    attributes:
+      label: Первый шаг
+      description: Как можно попробовать это без лишней сложности?
+      placeholder: "Например: создать тему, собрать список людей, сделать маленький прототип."
+    validations:
+      required: false

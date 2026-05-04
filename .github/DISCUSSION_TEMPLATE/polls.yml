@@ -1,0 +1,15 @@
+title: "[Poll] "
+labels: ["poll"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Для голосования сформулируй вопрос и варианты прямо в форме GitHub Poll.
+  - type: input
+    id: decision
+    attributes:
+      label: Что выбираем?
+      description: Коротко опиши решение или тему голосования.
+      placeholder: "Например: какой формат еженедельной активности выбрать?"
+    validations:
+      required: true

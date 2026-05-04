@@ -1,0 +1,15 @@
+title: "[General] "
+labels: ["general"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Свободная тема для общения. Если вопрос требует конкретного ответа, лучше выбрать Q&A.
+  - type: textarea
+    id: message
+    attributes:
+      label: Сообщение
+      description: О чем хочешь поговорить?
+      placeholder: "Напиши мысль, вопрос или тему для разговора."
+    validations:
+      required: true

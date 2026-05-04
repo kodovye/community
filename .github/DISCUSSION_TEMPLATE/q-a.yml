@@ -1,0 +1,23 @@
+title: "[Q&A] "
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Чем больше контекста, тем быстрее тебе помогут. Не публикуй секреты и приватные данные.
+  - type: textarea
+    id: question
+    attributes:
+      label: Вопрос
+      description: Что хочешь узнать или решить?
+      placeholder: "Сформулируй вопрос максимально прямо."
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Контекст
+      description: Что уже пробовал? Что ожидал? Что получилось?
+      placeholder: "Добавь детали, ссылки, ошибки или куски лога без секретов."
+    validations:
+      required: true

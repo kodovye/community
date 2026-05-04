@@ -1,0 +1,23 @@
+title: "[Show] "
+labels: ["showcase"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Покажи работу, демку, скрин, репозиторий, заметку или прогресс.
+  - type: textarea
+    id: what
+    attributes:
+      label: Что показываешь?
+      description: Опиши работу или прогресс.
+      placeholder: "Что это, зачем сделано, чем гордишься?"
+    validations:
+      required: true
+  - type: textarea
+    id: links
+    attributes:
+      label: Ссылки или материалы
+      description: Добавь ссылки, скрины или демо, если есть.
+      placeholder: "GitHub, сайт, видео, изображения."
+    validations:
+      required: false
