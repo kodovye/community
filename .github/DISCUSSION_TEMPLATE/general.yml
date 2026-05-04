@@ -4,12 +4,12 @@ body:
   - type: markdown
     attributes:
       value: |
-        Свободная тема для общения. Если вопрос требует конкретного ответа, лучше выбрать Q&A.
+        Свободный разговор для клуба. Если нужен конкретный ответ, лучше выбрать Q&A.
   - type: textarea
     id: message
     attributes:
       label: Сообщение
       description: О чем хочешь поговорить?
-      placeholder: "Напиши мысль, вопрос или тему для разговора."
+      placeholder: "Напиши мысль, тему для разговора или короткое обновление."
     validations:
       required: true
